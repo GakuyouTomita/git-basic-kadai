@@ -1,0 +1,11 @@
+gakuyo@GakuyonoMacBook-Air git_challenge % git add hello_world.txt
+gakuyo@GakuyonoMacBook-Air git_challenge % git commit -m "hello_world.txtを追加"
+[main ac4c405] hello_world.txtを追加
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+gakuyo@GakuyonoMacBook-Air git_challenge % git add hello_world.txt
+gakuyo@GakuyonoMacBook-Air git_challenge % git commit -m "日本語訳を追記"
+[main b178960] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+gakuyo@GakuyonoMacBook-Air git_challenge % git log --oneline
+b178960 (HEAD -> main) 日本語訳を追記
+ac4c405 hello_world.txtを追加
